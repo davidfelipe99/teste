@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo javascript dom</title>
+    <style>
+        body {
+            padding-bottom:450px ;
+        }
+
+        .retangulo {
+            width: 400px;
+            height: 250px;
+            border: 2px solid black;
+            background-color: bisque;
+        }
+
+        .btn {
+            margin-top: 16px;
+            padding: 8px;
+            background-color: cornsilk;
+
+        }
+
+        .btn:active {
+            background-color: azure;
+        }
+
+        .muda_cor {
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="titulo1">texto original</h1>
+    <hr>
+    <p class="paragrafo">primeiro</p>
+    <p class="paragrafo">segundo</p>
+    <p class="paragrafo">terceiro</p>
+
+    <hr>
+    <div class="retangulo"></div>
+    <button class="btn">muda classe</button>
+    <hr>
+
+    <ul class="lista"> </ul>
+    <input type="text" id='input_texto'>
+    <button id="btnadiciona">adicionar</button>
+    <hr>
+<ul class="lista_apaga">
+    <li class="linhaul">linha1</li>
+    <li class="linhaul">linha2</li>
+    <li class="linhaul">linha3</li>
+    <li class="linhaul">linha4</li>
+    <li class="linhaul">linha5</li>
+    <li class="linhaul">linha6</li>
+</ul>
+<hr>
+<ul class="filtra_lista">
+<li class="filtra_linha">javascript</li>
+<li class="filtra_linha">linha</li>
+<li class="filtra_linha">java</li>
+<li class="filtra_linha">html</li>
+<li class="filtra_linha">linha</li>
+<li class="filtra_linha">linha</li>
+<li class="filtra_linha">java</li>
+<li class="filtra_linha">java</li>
+<li class="filtra_linha">html</li>
+</ul>
+<input type="text" id="input_filtra">
+<hr>
+
+
+
+    <script src="mudatexto.js"> </script>
+    <script src="mudacss.js"></script>
+    <script src=classe.js></script>
+    <script src="adiciona_linha.js"></script>
+    <script src="apagalinha.js"></script>
+    <script src="filtra_lista.js"></script>
+</body>
+
+
+</html>
